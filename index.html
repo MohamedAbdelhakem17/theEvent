@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Event</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Normalize Css Link -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- AOS Css Link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Main Css Link -->
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body id="mainPage">
+    <!-- Start Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="The Event">
+            </div>
+            <div class="menu-box" id="menu">
+                <ul class="menu">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#speakers" class="nav-link">Speakers</a></li>
+                    <li class="nav-item"><a href="#schedule" class="nav-link">Schedule</a></li>
+                    <li class="nav-item"><a href="#venue" class="nav-link">Venue</a></li>
+                    <li class="nav-item"><a href="#hotels" class="nav-link">Hotels</a></li>
+                    <li class="nav-item"><a href="#sponsors" class="nav-link">Sponsors</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars toggel" id="nav-btn"></i>
+            </div>
+            <a href="#buy-tickets" class="btn nav-btn nav-link">Buy Tickets</a>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Strat header -->
+    <header id="home" class="home offset">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>
+                THE ANNUAL <br>
+                <span>MARKETING</span> CONFERENCE
+            </h1>
+            <p>10-12 December, Downtown Conference Center, New York </p>
+            <div class="play">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <a href="#about" class="btn">About The Event </a>
+            <div class="iframe">
+                <i class="fa-solid fa-xmark" id="videoClose"></i>
+                <div class="video">
+                    <video src="img/2015 Sales Conference BELIEVE Opening Video.mp4" controls id="video"></video>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End header -->
+
+    <!-- Start About -->
+    <section id="about" class="about offset">
+        <div class="container">
+            <div class="info" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h2 class="title">About The Event</h2>
+                <p>Sed nam ut dolor qui repellendus iusto odit. Possimus inventore eveniet accusamus error amet eius aut
+                    accusantium et. Non odit consequatur repudiandae sequi ea odio molestiae. Enim possimus sunt
+                    inventore in est ut optio sequi unde. </p>
+            </div>
+            <div class="time" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="item">
+                    <h4>WHERE</h4>
+                    <p>Downtown Conference Center, New York </p>
+                </div>
+                <div class="item">
+                    <h4>WHEN</h4>
+                    <p>Monday to Wednesday <br>
+                        10-12 December</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start EVENT SPEAKERS -->
+    <section id="speakers" class="speakers">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3>EVENT SPEAKERS</h3>
+                <p>Here are some of our speakers </p>
+            </div>
+            <div class="person-speakers">
+                <!-- Display Speakers -->
+            </div>
+        </div>
+    </section>
+    <!-- End EVENT SPEAKERS -->
+
+    <!-- Start EVENT SCHEDUL  -->
+    <section id="schedule" class="schedule">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3>EVENT SCHEDULE </h3>
+                <p>Here is our event schedule </p>
+            </div>
+            <div class="days" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3 class="active" data-day="day1">Day 1</h3>
+                <h3 data-day="day2">Day 2</h3>
+                <h3 data-day="day3">Day 3</h3>
+            </div>
+            <p data-aos="fade-up" data-aos-delay="70" data-aos-duration="50">Voluptatem nulla veniam soluta et corrupti
+                consequatur neque eveniet officia. Eius necessitatibus
+                voluptatem
+                quis labore perspiciatis quia.
+            </p>
+            <div class="schedules" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+            </div>
+        </div>
+    </section>
+    <!-- End EVENT SCHEDUL  -->
+
+    <!-- Start EVENT VENUE  -->
+    <section id="venue" class="venue">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3>EVENT VENUE </h3>
+                <p>Event venue location info and gallery </p>
+            </div>
+        </div>
+        <div class="location" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+            <iframe title="location"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                allowfullscreen=""></iframe>
+            <div class="info" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="text">
+                    <h2>Downtown Conference Center, New York </h2>
+                    <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae
+                        sit
+                        qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit
+                        enim
+                        nesciunt quia velit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="gallary">
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/1.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/2.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/3.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/4.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/5.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/6.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/7.jpg" alt="gallary">
+            </div>
+            <div class="item" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <img src="img/venue-gallery/8.jpg" alt="gallary">
+            </div>
+        </div>
+        <div class="view" id="view">
+            <div class="container">
+                <h3 id="close" class="close"> <i class="fa-solid fa-xmark "></i> </h3>
+                <h3 id="prev"><i class="fa-solid fa-chevron-left"></i></h3>
+                <div class="img">
+                    <img src="" id="activeImg" alt="gallary">
+                </div>
+                <h3 id="next"><i class="fa-solid fa-chevron-right"></i></h3>
+            </div>
+        </div>
+    </section>
+    <!-- End EVENT VENUE  -->
+
+    <!-- End HOTELS  -->
+    <section class="hotels" id="hotels">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> HOTELS </h3>
+                <p>Her are some nearby hotels </p>
+            </div>
+            <div class="hotel">
+                <!-- Display Hotel -->
+            </div>
+        </div>
+    </section>
+    <!-- End HOTELS  -->
+
+    <!-- Start SPONSORS  -->
+    <section class="sponsors" id="sponsors">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> SPONSORS </h3>
+            </div>
+            <div class="sponsor">
+                <!-- Display supporters -->
+            </div>
+        </div>
+    </section>
+    <!-- End SPONSORS  -->
+
+    <!-- Start question  -->
+    <section class="question" id="question">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> F.A.Q </h3>
+            </div>
+            <div class="questions" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <!-- Display supporters -->
+            </div>
+        </div>
+    </section>
+    <!-- End question  -->
+
+    <!-- Start NEWSLETTER  -->
+    <section class="newsletter" id="newsletter">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> NEWSLETTER </h3>
+                <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+            </div>
+            <div class="input" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" autocomplete="off">
+                <button type="button" class="btn">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <!-- End NEWSLETTER  -->
+
+    <!-- Start BUY TICKETS  -->
+    <section class="buy-tickets" id="buy-tickets">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> BUY TICKETS </h3>
+                <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut. </p>
+            </div>
+            <div class="plans">
+                <div class="plan" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                    <div class="ineer">
+                        <h5>STANDARD ACCESS </h5>
+                        <p>$150</p>
+                        <hr>
+                        <ul>
+                            <li>Regular Seating</li>
+                            <li>Coffee Break </li>
+                            <li>Custom Badge</li>
+                            <li class="text-muted">Community Access</li>
+                            <li class="text-muted">Workshop Access</li>
+                            <li class="text-muted">After Party</li>
+                        </ul>
+                        <hr>
+                        <button type="button" class="buy" title="standard-access">Buy Now</button>
+                    </div>
+                </div>
+                <div class="plan" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                    <div class="ineer">
+                        <h5>PRO ACCESS </h5>
+                        <p>$250</p>
+                        <hr>
+                        <ul>
+                            <li>Regular Seating</li>
+                            <li>Coffee Break </li>
+                            <li>Custom Badge</li>
+                            <li>Community Access</li>
+                            <li class="text-muted">Workshop Access</li>
+                            <li class="text-muted">After Party</li>
+                        </ul>
+                        <hr>
+                        <button type="button" title="pro-access" class="buy">Buy Now</button>
+                    </div>
+                </div>
+                <div class="plan" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                    <div class="ineer">
+                        <h5>PREMIUM ACCESS </h5>
+                        <p>$350</p>
+                        <hr>
+                        <ul>
+                            <li>Regular Seating</li>
+                            <li>Coffee Break </li>
+                            <li>Custom Badge</li>
+                            <li>Community Access</li>
+                            <li>Workshop Access</li>
+                            <li>After Party</li>
+                        </ul>
+                        <hr>
+                        <button type="button" class="buy" title="premium-access">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buySelection">
+            <div class="model">
+                <div class="head">
+                    <h2>Buy Tickets </h2>
+                    <h3 id="model-close"><i class="fa-solid fa-xmark"></i></h3>
+                </div>
+                <div class="body">
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="valid" autocomplete="off">
+                    <input type="email" name="userEmail" id="userEmail" placeholder="Your Email" autocomplete="off">
+                    <select name="plan" id="plan">
+                        <option value="">-- Select Your Ticket Type --</option>
+                        <option value="standard-access">Standard Access</option>
+                        <option value="pro-access">Pro Access</option>
+                        <option value="premium-access">Premium Access</option>
+                    </select>
+                    <button type="button">Buy Now</button>
+                    <!-- <span id="msg"> Text </span> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End BUY TICKETS -->
+
+    <!-- Start CONTACT US -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="main-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <h3> CONTACT US </h3>
+                <p>Nihil officia ut sint molestiae tenetur.</p>
+            </div>
+            <div class="info" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="address">
+                    <div class="inner">
+                        <h3><i class="fa-solid fa-location-dot"></i></h3>
+                        <h5>ADDRESS</h5>
+                        <p>A108 Adam Street, NY 535022, USA </p>
+                    </div>
+                </div>
+                <div class="phone">
+                    <div class="inner">
+                        <h3><i class="fa-solid fa-mobile-screen-button"></i></h3>
+                        <h5>PHONE NUMBER </h5>
+                        <a href="tel:+1 5589 55488 55">+1 5589 55488 55</a>
+                    </div>
+                </div>
+                <div class="email">
+                    <div class="inner">
+                        <h3><i class="fa-solid fa-envelope"></i></h3>
+                        <h5>EMAIL </h5>
+                        <a href="mailto:info@example.com">info@example.com </a>
+                    </div>
+                </div>
+            </div>
+            <form data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div>
+                    <input type="text" name="userName" placeholder="Your Name" autocomplete="off">
+                    <input type="email" name="userEmail" placeholder="Your Email" autocomplete="off">
+                </div>
+                <input type="text" name="subject" placeholder="Subject" autocomplete="off">
+                <textarea name="message" rows="5" placeholder="Message" required="" spellcheck="false"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+    </section>
+    <!-- End CONTACT US -->
+
+    <!-- Start Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="column" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="inner">
+                    <img src="img/logo.png" alt="The Event">
+                    <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et
+                        totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id
+                        quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.
+                    </p>
+                </div>
+            </div>
+            <div class="column" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="inner">
+                    <h3>USEFUL LINKS </h3>
+                    <ul>
+                        <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Terms of service</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="inner">
+                    <h3>USEFUL LINKS </h3>
+                    <ul>
+                        <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fa-solid fa-angle-right"></i> About us</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Services</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Terms of service</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> Privacy policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+                <div class="inner">
+                    <h3>CONTACT US </h3>
+                    <p>
+                        A108 Adam Street <br>
+                        New York, NY 535022 <br>
+                        United States <br>
+                        <b>Phone:</b> +1 5589 55488 55 <br>
+                        <b>Email:</b> info@example.com
+                    </p>
+                    <div class="social-links">
+                        <a title="link" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a title="link" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a title="link" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a title="link" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start copyright -->
+    <div class="copyright">
+        <div class="container">
+            <h3><span>Coded By :</span> Mohamed
+                Abdelhakem</h3>
+            <div class="social-links">
+                <a title="github" href="https://github.com/MohamedAbdelhakem17"><i class="fa-brands fa-github"></i></a>
+                <a title="facebook" href="https://www.facebook.com/mohamed.abdelhakem.9693"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a title="linkedin" href="https://www.linkedin.com/in/mohamed-abdelhakem-77880222a/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a title="instagram" href="https://www.instagram.com/mohamed__abdelhakem/"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- End copyright -->
+
+    <!-- Strat GO TO TOP -->
+    <div class="goToTop" id="goToTop">
+        <i class="fa-solid fa-jet-fighter-up"></i>
+    </div>
+    <!-- End GO TO TOP -->
+
+    <!-- Start Loading Screen  -->
+    <section id="load" class="load">
+        <div class="container">
+            <ul>
+                <li>L</li>
+                <li>o</li>
+                <li>a</li>
+                <li>d</li>
+                <li>i</li>
+                <li>n</li>
+                <li>g</li>
+            </ul>
+
+            <div class="bar"></div>
+        </div>
+    </section>
+    <!-- End Loading Screen  -->
+
+
+    <script src="js/index.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
